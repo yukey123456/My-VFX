@@ -1,4 +1,4 @@
-﻿Shader "Unlit/NhanShader/MobileCelShadingHLSL"
+﻿Shader "YukeyVFX/Toon/MobileCelShading"
 {
     Properties
     {
@@ -101,7 +101,7 @@
                 half _specularValue = pow(nDotH * _diffuseValue, _Glossiness);
                 half3 SpecularLight = smoothstep(0.0, _SmoothCel, _specularValue);
 
-                // Rim Light
+                // Rim Light (Freshnel)
                 half _rimValue = CalculateFresnelEffect(_normal, _viewDir, _RimAmount); 
                 half3 RimLight = smoothstep(0.0, _SmoothCel, _rimValue) * _diffuseValue; 
 

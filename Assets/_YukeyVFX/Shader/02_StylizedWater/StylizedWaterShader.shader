@@ -1,4 +1,4 @@
-Shader "Unlit/StylizedWaterShader"
+Shader "YukeyVFX/Toon/StylizedWater"
 {
     Properties
     {       

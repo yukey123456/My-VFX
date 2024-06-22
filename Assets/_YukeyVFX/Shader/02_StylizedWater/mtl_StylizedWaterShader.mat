@@ -33,14 +33,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SurfaceNoise:
         m_Texture: {fileID: 2800000, guid: 870978b3b358ae24887f37abcd3c666a, type: 3}
-        m_Scale: {x: 0.9, y: 2.2}
+        m_Scale: {x: 1.4, y: 2.8}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _DepthMaxDistance: 0.6
-    - _FoamDistance: 0.19
-    - _SurfaceDistortionAmount: 0.05
-    - _SurfaceNoiseCutoff: 0.48
+    - _FoamDistance: 0.1
+    - _SurfaceDistortionAmount: 0.06
+    - _SurfaceNoiseCutoff: 0.49
     m_Colors:
     - _DeepColor: {r: 0.08599999, g: 0.40699998, b: 1, a: 0.749}
     - _DepthGradientDeep: {r: 0.08599999, g: 0.40699998, b: 1, a: 0.749}
