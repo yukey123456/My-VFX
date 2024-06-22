@@ -13,4 +13,5 @@ public class CaseInfo
 public enum SceneType
 {
     MobileCelShader = 1,
+    StylizedWaterShader = 2,
 }

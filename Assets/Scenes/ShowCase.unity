@@ -680,6 +680,9 @@ MonoBehaviour:
   - txtName: Mobile Cel-Shading
     sprScreenshot: {fileID: 21300000, guid: 4f26e6754b2d46f49ade32185ed7c7b8, type: 3}
     demoScene: 1
+  - txtName: Stylized Water Shader
+    sprScreenshot: {fileID: 21300000, guid: a25a1283a0cecbd45b6ea722bf6edc73, type: 3}
+    demoScene: 2
 --- !u!1 &769523753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,7 +1701,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1289172360}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
