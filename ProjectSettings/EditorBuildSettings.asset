@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ShowCase.unity
     guid: 429a864431b0b0d4ba3f932e829d3a01
   - enabled: 1
-    path: Assets/Scenes/ShowCaseScene/MobileCustomLightShader.unity
+    path: Assets/_YukeyVFX/Shader/01_UnlitCelShading/Example/MobileToonShaderDemo.unity
     guid: 079e6c1210726344fb3d7d50f390ec4c
   - enabled: 1
-    path: Assets/Scenes/ShowCaseScene/StylizedWaterShader.unity
+    path: Assets/_YukeyVFX/Shader/02_StylizedWater/Example/StylizedWaterDemo.unity
     guid: 1522ce6e87dfddf4db7f37a6ff237941
+  - enabled: 1
+    path: Assets/_YukeyVFX/VFXs/03_CampFire/Example/CampFireDemo.unity
+    guid: 716a8742833d46f45a8ebd07808e7df3
   m_configObjects: {}
