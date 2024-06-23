@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_YukeyVFX/VFXs/03_CampFire/Example/CampFireDemo.unity
     guid: 716a8742833d46f45a8ebd07808e7df3
+  - enabled: 1
+    path: Assets/_YukeyVFX/Shader/03_ColorlessEnergyZone/Example/ColorlessEnergyZoneDemo.unity
+    guid: 131c5f7d96eca484b974bf8a928a18db
   m_configObjects: {}
