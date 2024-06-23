@@ -31,10 +31,9 @@ public class ShowCaseChoosing : MonoBehaviour
 
     public void OnCaseButtonClick(CaseButton button)
     {
-        int _index = lstBtnCase.IndexOf(button);
-        int demoScene = (int)lstCase[_index].demoScene;
-        SceneManager.LoadScene(demoScene, LoadSceneMode.Additive);
-        _currDemoScene = demoScene;
+        int _index = lstBtnCase.IndexOf(button) + 1;
+        SceneManager.LoadScene(_index, LoadSceneMode.Additive);
+        _currDemoScene = _index;
         gobjContent.SetActive(false);
         btnExit.gameObject.SetActive(true);
     }
